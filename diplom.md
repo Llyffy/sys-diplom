@@ -38,13 +38,13 @@
 
 Используйте набор статичных файлов для сайта. Можно переиспользовать сайт из домашнего задания.
 
-- [ ] Создайте [Target Group](https://cloud.yandex.com/docs/application-load-balancer/concepts/target-group), включите в неё две созданных ВМ.
+- [x] Создайте [Target Group](https://cloud.yandex.com/docs/application-load-balancer/concepts/target-group), включите в неё две созданных ВМ.
 
-- [ ] Создайте [Backend Group](https://cloud.yandex.com/docs/application-load-balancer/concepts/backend-group), настройте backends на target group, ранее созданную. Настройте healthcheck на корень (/) и порт 80, протокол HTTP.
+- [x] Создайте [Backend Group](https://cloud.yandex.com/docs/application-load-balancer/concepts/backend-group), настройте backends на target group, ранее созданную. Настройте healthcheck на корень (/) и порт 80, протокол HTTP.
 
-- [ ] Создайте [HTTP router](https://cloud.yandex.com/docs/application-load-balancer/concepts/http-router). Путь укажите — /, backend group — созданную ранее.
+- [x] Создайте [HTTP router](https://cloud.yandex.com/docs/application-load-balancer/concepts/http-router). Путь укажите — /, backend group — созданную ранее.
 
-- [ ] Создайте [Application load balancer](https://cloud.yandex.com/en/docs/application-load-balancer/) для распределения трафика на веб-сервера, созданные ранее. Укажите HTTP router, созданный ранее, задайте listener тип auto, порт 80.
+- [x] Создайте [Application load balancer](https://cloud.yandex.com/en/docs/application-load-balancer/) для распределения трафика на веб-сервера, созданные ранее. Укажите HTTP router, созданный ранее, задайте listener тип auto, порт 80.
 
 Протестируйте сайт
 `curl -v <публичный IP балансера>:80` 
@@ -54,6 +54,17 @@
 Создание двух вм:
 ![image](https://github.com/Llyffy/sys-diplom/assets/53367937/47fcca7c-1dd4-4d81-89f0-50435b20926e)
 
+Создание Target Group:
+![image](https://github.com/Llyffy/sys-diplom/assets/53367937/1e24ab89-da81-47ed-8749-d89caabf30f0)
+
+Создание Backend Group:
+![image](https://github.com/Llyffy/sys-diplom/assets/53367937/d85030da-f806-46fe-96e6-b7f5bb5394b1)
+
+Создание HTTP router:
+![image](https://github.com/Llyffy/sys-diplom/assets/53367937/999478b3-3373-4dc8-ad1c-dd85d82b0e6a)
+
+Создание Application load balancer:
+![image](https://github.com/Llyffy/sys-diplom/assets/53367937/a53ce977-4851-4d2f-b90a-17640080958f)
 
 
 ### Мониторинг
