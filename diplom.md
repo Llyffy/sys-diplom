@@ -65,6 +65,7 @@
 
 Создание Application load balancer:
 ![image](https://github.com/Llyffy/sys-diplom/assets/53367937/a53ce977-4851-4d2f-b90a-17640080958f)
+![image](https://github.com/Llyffy/sys-diplom/assets/53367937/886601f4-6e72-473d-add2-3417ecac6f9e)
 
 
 ### Мониторинг
