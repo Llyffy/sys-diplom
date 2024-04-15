@@ -67,6 +67,9 @@
 ![image](https://github.com/Llyffy/sys-diplom/assets/53367937/a53ce977-4851-4d2f-b90a-17640080958f)
 ![image](https://github.com/Llyffy/sys-diplom/assets/53367937/886601f4-6e72-473d-add2-3417ecac6f9e)
 
+curl:
+
+![image](https://github.com/Llyffy/sys-diplom/assets/53367937/83d5b7ac-fe1d-4466-ad35-67bdec382d46)
 
 ### Мониторинг
 Создайте ВМ, разверните на ней Zabbix. На каждую ВМ установите Zabbix Agent, настройте агенты на отправление метрик в Zabbix. 
